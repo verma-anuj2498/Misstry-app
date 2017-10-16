@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.black_pearl.im2.Scheduleservice">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Problem Description"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="date"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="time"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:inputType="time"
+        />
+
+    <Button     android:id="@+id/book_schedule_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_marginTop="25dp"
+        />
+
+</LinearLayout>
