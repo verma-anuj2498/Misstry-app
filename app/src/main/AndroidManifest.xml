@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".otpActivity" />
         <activity
             android:name=".LoggedinUser"
             android:label="@string/title_activity_loggedin_user"
