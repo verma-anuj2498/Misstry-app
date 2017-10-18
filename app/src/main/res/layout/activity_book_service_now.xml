@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/buttna"
     tools:context="com.example.black_pearl.im2.BookServiceNow">
 
 
@@ -14,6 +15,7 @@
         android:padding="15dp"
         android:layout_margin="20dp"
         android:hint="Problem Discription"
+        android:background="@drawable/edittextcustom"
         android:textColor="#000"
         />
 
@@ -22,6 +24,7 @@
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:layout_margin="20dp"
+        android:background="@drawable/edittextcustom"
         android:hint="Address"
         android:textColor="#000"
 
@@ -32,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
+        android:background="@drawable/edittextcustom"
         android:layout_margin="20dp"
         android:hint="Landmark"
         android:textColor="#000"
@@ -44,8 +48,10 @@
         android:text="Book"
         android:layout_gravity="center"
         android:padding="15dp"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttn"
         android:layout_marginTop="25dp"
         />
 

@@ -5,37 +5,39 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/buttna"
     tools:context="com.example.black_pearl.im2.Scheduleservice">
 
     <EditText
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Problem Description"
         android:layout_gravity="center"
-        android:gravity="center"
+        android:gravity="top"
         android:padding="15dp"
-        android:layout_margin="25dp"
+        android:background="@drawable/edittextcustom"
+        android:layout_margin="30dp"
         />
 
     <EditText
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="date"
         android:layout_gravity="center"
-        android:gravity="center"
         android:padding="15dp"
-        android:layout_margin="25dp"
+        android:background="@drawable/edittextcustom"
+        android:layout_margin="30dp"
         android:inputType="date"
         />
 
     <EditText
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="time"
         android:layout_gravity="center"
-        android:gravity="center"
         android:padding="15dp"
-        android:layout_margin="25dp"
+        android:background="@drawable/edittextcustom"
+        android:layout_margin="30dp"
         android:inputType="time"
         />
 
@@ -45,7 +47,9 @@
         android:text="Book"
         android:layout_gravity="center"
         android:padding="15dp"
-        android:textColor="#000"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/buttn"
         android:textSize="15dp"
         android:layout_marginTop="25dp"
         />
