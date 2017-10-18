@@ -15,29 +15,32 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/buttna"
-
     >
 
 
     <TextView       android:id="@+id/userprofilename"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="top"
         android:text="user name"
-        android:textSize="20dp"
-        android:layout_margin="30dp"
         android:background="@drawable/edittextcustom"
+        android:textSize="20dp"
         android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
         android:textColor="#000"
         />
 
     <TextView android:id="@+id/emailprofile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="top"
+        android:background="@drawable/edittextcustom"
         android:text="Email id"
         android:textSize="20dp"
-        android:layout_margin="30dp"
-        android:background="@drawable/edittextcustom"
         android:padding="15dp"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
         android:textColor="#000"
 
         />
@@ -47,10 +50,13 @@
     <TextView       android:id="@+id/phonenumberprofile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="top"
         android:text="Phone number"
         android:textSize="20dp"
-        android:layout_margin="30dp"
-        android:background="@drawable/edittextcustom"        android:padding="15dp"
+        android:background="@drawable/edittextcustom"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
         android:textColor="#000"
 
         />
@@ -73,9 +79,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:src="@drawable/edit"
-        android:backgroundTint="#F36F19"
+        android:backgroundTint="#FF5733"
         android:elevation="15dp"
-        app:fabSize="normal"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:padding="15dp"

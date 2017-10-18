@@ -6,22 +6,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/buttna"
-
     tools:context="com.example.black_pearl.im2.InsideService">
 
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="110dp"
-        app:cardCornerRadius="5dp"
-        android:background="@drawable/side_nav_bar"
-        android:backgroundTint="#D9D6DC"
+        app:cardCornerRadius="10dp"
+        android:padding="7dp"
+        android:background="#fff"
+        android:layout_margin="7dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-                        >
+            android:background="#fff"
+            >
         <ImageView          android:id="@+id/iconinsideservice"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -34,8 +35,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textStyle="bold"
-            android:padding="15dp"
             android:text="Electrician"
             android:textSize="25dp"
             android:textColor="#000"
@@ -47,17 +46,31 @@
 
 
 
-    <Button         android:id="@+id/scheduleservice"
-        android:layout_width="match_parent"
+    <android.support.v7.widget.CardView
+        android:id="@+id/scheduleservicecard"
+        android:layout_width="250dp"
         android:layout_height="70dp"
-        android:layout_margin="30dp"
-        android:background="@drawable/side_nav_bar"
-        android:text="Schedule service"
-        android:textColor="#fff"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:layout_gravity="center"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp"
+        android:padding="7dp"
+        android:layout_marginTop="50dp"
+        >
 
-        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Schedule Service"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/side_nav_bar"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+    </android.support.v7.widget.CardView>
 
 
 
@@ -67,10 +80,9 @@
         android:layout_height="70dp"
         android:layout_gravity="center"
         app:cardElevation="20dp"
-        android:backgroundTint="#D9D6DC"
         app:cardCornerRadius="10dp"
         android:padding="7dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         >
 
 

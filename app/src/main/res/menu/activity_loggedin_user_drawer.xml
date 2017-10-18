@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/Bookings"
+            android:title="Your Bookings" />
+        <item
+            android:id="@+id/Services"
+            android:title="Your Services" />
+        <item
+            android:id="@+id/Paytm_Wallet"
+            android:title="Paytm Wallet" />
+        <item
+            android:id="@+id/InE"
+            android:title="Invite and Earn" />
+        <item
+            android:id="@+id/Call"
+            android:title="Call Us" />
+        <item
+            android:id="@+id/Rate"
+            android:title="Rate" />
+        <item
+            android:id="@+id/Privacy"
+            android:title="Privacy" />
+        <item
+            android:id="@+id/TnC"
+            android:title="Terms and Conditions" />
+    </group>
+
+
+
+</menu>

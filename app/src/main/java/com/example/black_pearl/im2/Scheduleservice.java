@@ -11,12 +11,4 @@ public class Scheduleservice extends AppCompatActivity {
         setContentView(R.layout.activity_scheduleservice);
 
     }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition(R.anim.swipeback_stack_to_front,
-                R.anim.swipeback_stack_right_out);
-
-    }
 }

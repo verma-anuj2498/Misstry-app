@@ -16,28 +16,30 @@
         android:gravity="top"
         android:padding="15dp"
         android:background="@drawable/edittextcustom"
-        android:layout_margin="30dp"
+        android:layout_margin="25dp"
         />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:hint="date"
         android:layout_gravity="center"
+        android:gravity="top"
         android:padding="15dp"
         android:background="@drawable/edittextcustom"
-        android:layout_margin="30dp"
+        android:layout_margin="25dp"
         android:inputType="date"
         />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:hint="time"
         android:layout_gravity="center"
-        android:padding="15dp"
+        android:gravity="top"
         android:background="@drawable/edittextcustom"
-        android:layout_margin="30dp"
+        android:padding="15dp"
+        android:layout_margin="25dp"
         android:inputType="time"
         />
 
@@ -48,7 +50,6 @@
         android:layout_gravity="center"
         android:padding="15dp"
         android:textColor="#fff"
-        android:textStyle="bold"
         android:background="@drawable/buttn"
         android:textSize="15dp"
         android:layout_marginTop="25dp"

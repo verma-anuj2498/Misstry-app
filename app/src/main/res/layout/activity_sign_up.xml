@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.black_pearl.im2.SignUpActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D8D8D9"
+    >
+
+
+    <EditText       android:id="@+id/otp_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:inputType="number"
+        android:layout_margin="15dp"
+        android:background="@drawable/edittextcustom"
+        android:hint="Enter OTP here"
+        android:visibility="gone"
+        />
+
+
+    <EditText   android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:minWidth="300dp"
+        android:padding="15dp"
+        android:hint="Name"
+        android:background="@drawable/edittextcustom"
+        android:layout_margin="15dp"
+        android:textColor="#000"
+
+        />
+
+    <Button   android:id="@+id/verify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verify"
+        android:textColor="#fff"
+        android:background="@drawable/buttn"
+        android:visibility="gone"
+
+        />
+
+
+    <EditText   android:id="@+id/emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:minWidth="300dp"
+        android:padding="15dp"
+        android:background="@drawable/edittextcustom"
+        android:inputType="textEmailAddress"
+        android:hint="Email ID"
+        android:layout_margin="15dp"
+        android:textColor="#000"
+
+        />
+
+    <EditText   android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:minWidth="300dp"
+        android:padding="15dp"
+        android:inputType="phone"
+        android:hint="Phone number"
+        android:background="@drawable/edittextcustom"
+        android:layout_margin="15dp"
+        android:textColor="#000"
+
+        />
+
+
+    <Button   android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:textColor="#fff"
+        android:background="@drawable/buttn"
+
+        />
+
+</LinearLayout>

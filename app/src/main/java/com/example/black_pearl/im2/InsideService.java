@@ -5,16 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class InsideService extends AppCompatActivity {
 
-    CardView  bookserviceCard;
+    CardView scheduleserviceCard, bookserviceCard;
     ImageView   icon;
     TextView    name;
-    Button  scheduleservice;
         int pos;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +20,7 @@ public class InsideService extends AppCompatActivity {
         setContentView(R.layout.activity_inside_service);
         setTitle("Indian Mistrry");
 
-        scheduleservice=(Button) findViewById(R.id.scheduleservice);
+        scheduleserviceCard=(CardView)findViewById(R.id.scheduleservicecard);
         bookserviceCard    =(CardView)findViewById(R.id.bookservicenowCard);
         icon               =(ImageView)findViewById(R.id.iconinsideservice);
         name               =(TextView)findViewById(R.id.servicenameinsideservice);
@@ -72,7 +70,7 @@ public class InsideService extends AppCompatActivity {
 
 
 
-        scheduleservice.setOnClickListener(new View.OnClickListener() {
+        scheduleserviceCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -92,14 +90,6 @@ public class InsideService extends AppCompatActivity {
 
             }
         });
-
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition(R.anim.swipeback_stack_to_front,
-                R.anim.swipeback_stack_right_out);
 
     }
 }
